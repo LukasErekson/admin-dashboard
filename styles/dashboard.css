@@ -6,7 +6,7 @@ body {
 
 .container {
     display: grid;
-    grid-template: minmax(100px, .1fr) 1fr / minmax(200px, .25fr) 1fr;
+    grid-template: minmax(150px, .1fr) 1fr / minmax(200px, .25fr) 1fr;
     grid-template-areas: "nav header"
                          "nav content";
     width: 100vw;
@@ -22,12 +22,42 @@ body {
 
 .dash-head {
     grid-area: header;
+
+    display: grid;
+    grid-template-rows: minmax(50px, .5fr) minmax(50px, 1fr);
+    grid-template-columns: minmax(200px, 1fr) minmax(100px, .5fr) minmax(50px, .1fr) minmax(100px, .5fr);
+    grid-template-areas: "search search . splash"
+                         "greeting  . action action"
+}
+
+.search-bar {
+    grid-area: search;
+    display: grid;
+}
+
+#searchbar {
+    width: 90%;
+    justify-self: center;
+    align-self: center;
+}
+
+.user-splash {
+    grid-area: splash;
+}
+
+.user-greeting {
+    grid-area: greeting;
+}
+
+.action-container {
+    grid-area: action;
 }
 
 .main {
     grid-area: content;
 
     background-color: #f7f7f7;
+    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, .4);
 
     display: grid;
     grid-template: 2rem 1fr 2rem 1fr / 1fr minmax(300px, .25fr);
