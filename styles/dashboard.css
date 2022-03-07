@@ -26,6 +26,25 @@ body {
     padding: 15px;
 }
 
+.dash-nav a {
+    color: white;
+    text-decoration: none;
+}
+
+ul.nav-list {
+    font-size: 1.1rem;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 0px;
+}
+
+ul.nav-list a {
+    display: grid;
+    grid-template-columns: 36px 12ch;
+    justify-content: center;
+    align-items: center;
+}
+
 /* ======================================================================== */
 /* Header Styles */
 /* ======================================================================== */
