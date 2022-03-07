@@ -40,13 +40,31 @@ body {
 
 .search-bar {
     grid-area: search;
-    display: grid;
+    display: flex;
+
+    align-items: center;
 }
 
 #searchbar {
     width: 90%;
-    justify-self: center;
-    align-self: center;
+    padding: .25rem;
+
+    border-radius: 15px;
+    border: none;
+    background-color: #e8e1e9;
+}
+
+#searchbar:focus {
+    outline: 2px solid grey;
+}
+
+#search-btn {
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#spyglass {
+    padding: 10px;
 }
 
 .user-splash {
