@@ -111,7 +111,6 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(40ch, 1fr));
     gap: 15px;
     overflow: hidden;
-
 }
 
 .card {
@@ -127,6 +126,7 @@ body {
 
 .project-card {
     border-left: 7px solid #16A34A;
+    min-height: 150px;
 }
 
 .announcements {
