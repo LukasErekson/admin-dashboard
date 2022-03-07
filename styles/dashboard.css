@@ -23,6 +23,7 @@ body {
 
     background-color: #5B21B6;
     color: white;
+    padding: 15px;
 }
 
 /* ======================================================================== */
@@ -35,7 +36,9 @@ body {
     grid-template-rows: minmax(50px, .5fr) minmax(50px, 1fr);
     grid-template-columns: minmax(200px, 1fr) minmax(100px, .5fr) minmax(50px, .1fr) minmax(100px, .5fr);
     grid-template-areas: "search search . splash"
-                         "greeting  . action action"
+                         "greeting  . action action";
+
+    padding: 15px;
 }
 
 .search-bar {
@@ -87,6 +90,7 @@ body {
 
     background-color: #f7f7f7;
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, .4);
+    padding: 15px;
 
     display: grid;
     grid-template: 2rem 1fr 2rem 1fr / 1fr minmax(300px, .25fr);
