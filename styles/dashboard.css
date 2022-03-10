@@ -38,6 +38,10 @@ ul.nav-list {
     padding: 0px;
 }
 
+ul.nav-list .icon {
+    filter: invert(1);
+}
+
 ul.nav-list a {
     display: grid;
     grid-template-columns: 36px 12ch;
