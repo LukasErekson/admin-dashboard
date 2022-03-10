@@ -40,6 +40,15 @@ ul.nav-list {
 
 ul.nav-list .icon {
     filter: invert(1);
+    padding: 0px;
+    transition: padding .5s;
+}
+
+ul.nav-list a:hover {
+    filter: invert(.15);
+    transform: scale(1.05);
+    transition: .5s;
+    padding: 2px;
 }
 
 ul.nav-list a {
@@ -67,7 +76,6 @@ ul.nav-list a {
 .search-bar {
     grid-area: search;
     display: flex;
-
     align-items: center;
 }
 
