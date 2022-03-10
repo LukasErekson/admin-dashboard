@@ -69,11 +69,11 @@ ul.nav-list a {
 
     display: grid;
     grid-template-rows: minmax(50px, .5fr) minmax(50px, 1fr);
-    grid-template-columns: minmax(200px, 1fr) minmax(100px, .5fr) minmax(50px, .1fr) minmax(100px, .5fr);
+    grid-template-columns: minmax(200px, 1fr) minmax(100px, .2fr) minmax(50px, .1fr) minmax(100px, .5fr);
     grid-template-areas: "search search . splash"
                          "greeting  . action action";
 
-    padding: 15px;
+    padding: 10px 35px;
 }
 
 .search-bar {
