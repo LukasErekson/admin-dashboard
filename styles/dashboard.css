@@ -114,6 +114,35 @@ ul.nav-list a {
 
 .action-container {
     grid-area: action;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5%;
+
+    align-content: center;
+}
+
+.action-container button {
+    height: 2rem;
+    padding: 5px;
+    
+    border: none;
+    border-radius: 15px;
+
+    color: white;
+    font-weight: bolder;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, .5);
+    background-color: var(--main-color);
+
+    cursor: pointer;
+
+    filter: none;
+    transition: filter .25s;
+}
+
+.action-container button:hover {
+    filter: grayscale(.4);
+    transition: .25s;
 }
 
 /* ======================================================================== */
