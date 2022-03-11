@@ -113,14 +113,27 @@ ul.nav-list a {
 
     display: grid;
     grid-template-columns: 75px 1fr;
-    height: 80px;
-    grid-template-rows: minmax(2rem, .25fr) 1fr;
+    grid-template-rows: 1fr;
     grid-auto-flow: column;
-    gap: 5px;
+
+    align-items: center;
+}
+
+.greet-text {
+    padding: 0px 15px;
+}
+
+.greet-text h2, p {
+    padding: 0px;
+    margin: 0px;
+}
+
+.greet-text h2 {
+    text-indent: 1rem;
 }
 
 #profile-pic {
-    grid-row: 1 / 3;
+    text-align: center;
     width: 75px;
     height: 75px;
     background-color: red;
