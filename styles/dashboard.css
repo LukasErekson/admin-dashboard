@@ -205,13 +205,13 @@ ul.nav-list a {
 
     background-color: #f7f7f7;
     box-shadow: inset 1px 1px 5px rgba(0, 0, 0, .4);
-    padding: 15px;
+    padding: 10px 25px;
 
     display: grid;
     grid-template: 2rem 1fr 2rem 1fr / 1fr minmax(300px, .25fr);
     justify-content: space-between;
     align-content: space-between;
-    gap: 20px;
+    gap: 25px;
     overflow: hidden;
 }
 
@@ -224,7 +224,7 @@ ul.nav-list a {
     display: grid;
     grid-template-rows: repeat(auto-fit, minmax(150px, .3fr));
     grid-template-columns: repeat(auto-fit, minmax(40ch, 1fr));
-    gap: 15px;
+    gap: 25px;
     overflow: hidden;
 }
 
