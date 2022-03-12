@@ -113,7 +113,9 @@ ul.nav-list a {
     gap: 15px;
     align-items: center;
     justify-items: space-around;
-    text-align: center;
+    text-align: left;
+
+    max-width: 300px;
 }
 
 .user-splash h3 {
