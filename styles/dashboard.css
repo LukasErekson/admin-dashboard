@@ -223,11 +223,11 @@ ul.nav-list a {
     padding: 10px 25px;
 
     display: grid;
-    grid-template: 2rem .5fr 1fr / 1fr minmax(300px, .25fr);
+    grid-template: 2rem .5fr 1fr / 1fr minmax(200px, .25fr);
     justify-content: space-between;
     align-content: space-between;
     gap: 15px;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 
