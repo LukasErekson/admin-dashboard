@@ -52,10 +52,8 @@ ul.nav-list .icon {
 }
 
 ul.nav-list a:hover {
-    filter: invert(.15);
-    transform: scale(1.05);
+    filter: invert(.25);
     transition: .5s;
-    padding: 2px;
 }
 
 ul.nav-list a {
