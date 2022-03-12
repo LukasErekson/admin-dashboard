@@ -303,6 +303,11 @@ ul.nav-list a {
     grid-row: 3 / 4;
 }
 
+.trending h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
 .trending ul {
     list-style-type: none;
 }
