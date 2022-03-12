@@ -41,6 +41,10 @@ ul.nav-list {
     padding: 0px;
 }
 
+ul.nav-list li {
+    padding: .5rem 0rem;
+}
+
 ul.nav-list .icon {
     filter: invert(1);
     padding: 0px;
