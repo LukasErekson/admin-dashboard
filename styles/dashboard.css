@@ -111,6 +111,11 @@ ul.nav-list a {
     gap: 15px;
     align-items: center;
     justify-items: space-around;
+    text-align: center;
+}
+
+.user-splash h3 {
+    flex-grow: 1;
 }
 
 #small-profile {
