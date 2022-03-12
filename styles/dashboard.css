@@ -11,7 +11,7 @@ body {
 
 .container {
     display: grid;
-    grid-template: minmax(150px, .1fr) 1fr / minmax(150px, .2fr) 1fr;
+    grid-template: minmax(150px, .1fr) 1fr / minmax(220px, .2fr) 1fr;
     grid-template-areas: "nav header"
                          "nav content";
     width: 100vw;
