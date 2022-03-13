@@ -29,6 +29,18 @@ body {
     padding: 15px;
 }
 
+#dashboard-icon {
+    width: 2.2rem;
+    height: 2.2rem;
+    display: inline;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .dash-nav a {
     color: white;
     text-decoration: none;
