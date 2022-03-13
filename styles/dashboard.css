@@ -76,6 +76,8 @@ ul.nav-list a {
                          "greeting  . action action";
 
     padding: 10px 35px;
+    z-index: 1;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .4);
 }
 
 
@@ -219,7 +221,6 @@ ul.nav-list a {
     grid-area: content;
 
     background-color: #f7f7f7;
-    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, .4);
     padding: 10px 25px;
 
     display: grid;
@@ -228,6 +229,7 @@ ul.nav-list a {
     align-content: space-between;
     gap: 15px;
     overflow: scroll;
+    scroll-behavior: smooth;
 }
 
 
