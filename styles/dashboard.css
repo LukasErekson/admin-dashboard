@@ -45,10 +45,9 @@ ul.nav-list li {
     padding: .5rem 0rem;
 }
 
-ul.nav-list .icon {
+.icon {
     filter: invert(1);
     padding: 0px;
-    transition: padding .5s;
 }
 
 ul.nav-list a:hover {
