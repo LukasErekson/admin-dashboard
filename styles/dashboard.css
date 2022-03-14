@@ -275,6 +275,20 @@ ul.nav-list a {
 .project-card {
     border-left: 7px solid #16A34A;
     min-height: 150px;
+    padding: 10px;
+
+    display: grid;
+    grid-template-rows: 2rem minmax(1fr, calc(80px - 3rem)) 60px;
+}
+
+.project-card-items {
+    text-align: right;
+    padding: 20px;
+}
+
+.card-icon {
+    margin: 0px 10px;
+    cursor: pointer;
 }
 
 /* ======================================================================== */
