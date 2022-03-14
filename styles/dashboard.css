@@ -120,6 +120,7 @@ ul.nav-list a {
 }
 
 #spyglass {
+    filter: invert(0);
     padding: 10px;
 }
 
