@@ -325,8 +325,21 @@ ul.nav-list a {
 
 .trending ul {
     list-style-type: none;
+    padding: 10px 20px;
 }
 
 .trending ul li {
     padding: 5px 0px;
+
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    gap: 15px;
+}
+
+.user-name {
+    color: rgba(0, 0, 0, .5);
+    font-size: .85rem;
+    text-indent: .25rem;
+    padding: 0px;
+    margin: 2px 0px;
 }
