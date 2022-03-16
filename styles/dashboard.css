@@ -279,12 +279,16 @@ ul.nav-list a {
     padding: 10px;
 
     display: grid;
-    grid-template-rows: 2rem minmax(1fr, calc(80px - 3rem)) 60px;
+    grid-template-rows: 2rem minmax(1fr, calc(60px - 3rem)) 60px;
+}
+
+.card-content {
+    overflow: hidden;
 }
 
 .project-card-items {
     text-align: right;
-    padding: 20px;
+    padding: 5px;
 }
 
 .card-icon {
