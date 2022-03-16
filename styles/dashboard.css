@@ -1,5 +1,6 @@
 :root {
-    --main-color: #5B21B6;
+    --main-color: #A21CAF;
+    --compliment-color: #059669;
 }
 /* ======================================================================== */
 /* General Styles */
@@ -144,7 +145,7 @@ ul.nav-list a {
 }
 
 .user-profile-pic{
-    background-color: rgb(162, 0, 255);
+    background-color: var(--main-color);
     border-radius: 100%;
     overflow: hidden;
 
@@ -185,7 +186,7 @@ ul.nav-list a {
     text-align: center;
     width: 75px;
     height: 75px;
-    background-color: rgb(162, 0, 255);
+    background-color: var(--main-color);
     border-radius: 100%;
     overflow: hidden;
 }
@@ -273,7 +274,7 @@ ul.nav-list a {
 }
 
 .project-card {
-    border-left: 7px solid #16A34A;
+    border-left: 10px solid var(--compliment-color);
     min-height: 150px;
     padding: 10px;
 
