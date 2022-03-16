@@ -276,10 +276,10 @@ ul.nav-list a {
 .project-card {
     border-left: 10px solid var(--compliment-color);
     min-height: 150px;
-    padding: 10px;
+    padding: 0px 10px;
 
     display: grid;
-    grid-template-rows: 2rem minmax(1fr, calc(60px - 3rem)) 60px;
+    grid-template-rows: 2rem minmax(1fr, calc(50px - 3rem)) 60px;
 }
 
 .card-content {
@@ -287,8 +287,10 @@ ul.nav-list a {
 }
 
 .project-card-items {
+    margin: 0px;
     text-align: right;
     padding: 5px;
+    box-shadow: -1rem -1rem .5rem white;
 }
 
 .card-icon {
